@@ -1,6 +1,7 @@
 *.idea
 *.class
 *.iml
+output.txt
 /nbproject/private/
 .metadata
 .gradle

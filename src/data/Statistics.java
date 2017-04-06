@@ -151,7 +151,7 @@ public class Statistics {
 	}
 
 	public static void main(String[] args) throws Exception {
-		Statistics s = new Statistics(10, () -> new DavidPocock2048());
+		Statistics s = new Statistics(20, () -> new DavidPocock2048());
 		s.begin();
 		System.out.println(s);
 		// FileWriter results = null;

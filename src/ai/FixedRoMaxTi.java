@@ -3,7 +3,7 @@ package ai;
 import model.AbstractState.MOVE;
 import model.State;
 
-public class MaxTiFixedRo extends AbstractPlayer {
+public class FixedRoMaxTi extends AbstractPlayer {
 
 	private int numRollouts = 0;
 	private double totalScore = 0;
